@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>supercollider</id>
+    <id>SuperCollider</id>
     <version>3.8.0</version>
     <packageSourceUrl>https://github.com/kindohm/supercollider-chocolatey</packageSourceUrl>
-    <title>supercollider</title>
+    <title>SuperCollider</title>
     <authors>Mike Hodnick</authors>
     <projectUrl>https://supercollider.github.io</projectUrl>
     <iconUrl>http://supercollider.github.io/images/sc_cube_32x32.png</iconUrl>
@@ -14,7 +14,7 @@
     <docsUrl>http://doc.sccode.org/</docsUrl>
     <mailingListUrl>http://new-supercollider-mailing-lists-forums-use-these.2681727.n2.nabble.com/</mailingListUrl>
     <bugTrackerUrl>https://github.com/supercollider/supercollider/issues</bugTrackerUrl>
-    <tags>supercollider admin</tags>
+    <tags>supercollider admin audio</tags>
     <summary>SuperCollider install for Windows.</summary>
     <description>SuperCollider is a platform for audio synthesis and algorithmic composition, 
     used by musicians, artists, and researchers working with sound. It is free and open 
