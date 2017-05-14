@@ -3,7 +3,7 @@
   <metadata>
     <id>supercollider</id>
     <version>3.8.0</version>
-     <packageSourceUrl>https://github.com/kindohm/supercollider-chocolatey</packageSourceUrl>
+    <packageSourceUrl>https://github.com/kindohm/supercollider-chocolatey</packageSourceUrl>
     <title>supercollider</title>
     <authors>Mike Hodnick</authors>
     <projectUrl>https://supercollider.github.io</projectUrl>
@@ -16,7 +16,9 @@
     <bugTrackerUrl>https://github.com/supercollider/supercollider/issues</bugTrackerUrl>
     <tags>supercollider admin</tags>
     <summary>SuperCollider install for Windows.</summary>
-    <description>SuperCollider is a platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound. It is free and open source software available for Windows, macOS, and Linux.</description>
+    <description>SuperCollider is a platform for audio synthesis and algorithmic composition, 
+    used by musicians, artists, and researchers working with sound. It is free and open 
+    source software available for Windows, macOS, and Linux.</description>
   <dependencies>
     <dependency id="git.install"/>
   </dependencies>
