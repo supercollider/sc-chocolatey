@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>SuperCollider</id>
+    <id>sc3plugins</id>
     <version>3.8.0</version>
     <packageSourceUrl>https://github.com/supercollider/sc-chocolatey</packageSourceUrl>
-    <title>SuperCollider</title>
+    <title>SuperCollider sc3-plugins</title>
     <authors>Mike Hodnick</authors>
     <projectUrl>https://supercollider.github.io</projectUrl>
     <iconUrl>http://supercollider.github.io/images/sc_cube_32x32.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/supercollider/supercollider</projectSourceUrl>
+    <projectSourceUrl>https://github.com/supercollider/sc3-plugins</projectSourceUrl>
     <docsUrl>http://doc.sccode.org/</docsUrl>
     <mailingListUrl>http://new-supercollider-mailing-lists-forums-use-these.2681727.n2.nabble.com/</mailingListUrl>
     <bugTrackerUrl>https://github.com/supercollider/supercollider/issues</bugTrackerUrl>
-    <tags>supercollider admin audio</tags>
-    <summary>SuperCollider install for Windows.</summary>
-    <description>SuperCollider is a platform for audio synthesis and algorithmic composition, 
-    used by musicians, artists, and researchers working with sound. It is free and open 
-    source software available for Windows, macOS, and Linux.</description>
+    <tags>supercollider sc3-plugins admin audio</tags>
+    <summary>SuperCollider sc3-plugins install for Windows.</summary>
+    <description>This package contains the community collection of unit generator plugins for SuperCollider. 
+    It extends the functionality of SuperCollider by additional UGens that run on scsynth, 
+    the SuperCollider audio synthesis server.</description>
   <dependencies>
-    <dependency id="git.install"/>
+    <dependency id="supercollider"/>
   </dependencies>
   </metadata>
   <files>
