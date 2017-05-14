@@ -12,7 +12,7 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
 
-  softwareName  = 'supercollider*'
+  softwareName  = 'SuperCollider Version 3.8.0'
 
   checksum      = '3523342DB879FC0E44413772B908804BD0E56ABAD0E7960E4FF776AE0E0C9E72'
   checksumType  = 'sha256' 
