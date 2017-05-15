@@ -1,4 +1,9 @@
-$installPath = $env:LOCALAPPDATA + '\SuperCollider\Extensions\SC3plugins'
-if(Test-Path -Path $installPath){
-    Remove-Item $installPath -Force -Recurse
+$extensionsPath = $env:LOCALAPPDATA + '\SuperCollider\Extensions'
+$pluginsPath = $extensionsPath + '\SC3plugins'
+
+Write-Host 'Checking for path' $pluginsPath
+
+if(Test-Path -Path $pluginsPath){
+    Write-Host 'Removing ' $pluginsPath
+    Remove-Item $pluginsPath -force -recurse
 }
