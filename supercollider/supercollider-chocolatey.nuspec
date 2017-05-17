@@ -21,7 +21,7 @@
     used by musicians, artists, and researchers working with sound. It is free and open 
     source software available for Windows, macOS, and Linux.</description>
   <dependencies>
-    <dependency id="git.install" version="2.9.0" />
+    <dependency id="git.install" version="[2.5.0,2.13.0]" />
   </dependencies>
   </metadata>
   <files>
