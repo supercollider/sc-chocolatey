@@ -20,7 +20,7 @@
     It extends the functionality of SuperCollider by additional UGens that run on scsynth, 
     the SuperCollider audio synthesis server.</description>
   <dependencies>
-    <dependency id="supercollider"/>
+    <dependency id="supercollider" version="3.8.0"/>
   </dependencies>
   </metadata>
   <files>
