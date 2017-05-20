@@ -5,7 +5,8 @@
     <version>3.8.0</version>
     <packageSourceUrl>https://github.com/supercollider/sc-chocolatey</packageSourceUrl>
     <title>SuperCollider for Windows</title>
-    <authors>Mike Hodnick</authors>
+    <owners>Mike Hodnick</owners>
+    <authors>SuperCollider Authors</authors>
     <projectUrl>https://supercollider.github.io</projectUrl>
     <iconUrl>http://supercollider.github.io/images/sc_cube_32x32.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
@@ -19,7 +20,10 @@
     <summary>SuperCollider install for Windows.</summary>
     <description>SuperCollider is a platform for audio synthesis and algorithmic composition, 
     used by musicians, artists, and researchers working with sound. It is free and open 
-    source software available for Windows, macOS, and Linux.</description>
+    source software available for Windows, macOS, and Linux.
+    
+    Requires the git.install package to be installed so that the SuperCollider Quarks feature
+    works correctly.</description>
   <dependencies>
     <dependency id="git.install" version="[2.5.0,2.13.0]" />
   </dependencies>
