@@ -5,7 +5,8 @@
     <version>3.8.0</version>
     <packageSourceUrl>https://github.com/supercollider/sc-chocolatey</packageSourceUrl>
     <title>SuperCollider sc3-plugins</title>
-    <authors>Mike Hodnick</authors>
+    <authors>SuperCollider Authors</authors>
+    <owners>Mike Hodnick</owners>
     <projectUrl>https://supercollider.github.io</projectUrl>
     <iconUrl>http://supercollider.github.io/images/sc_cube_32x32.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
