@@ -15,7 +15,7 @@
     <docsUrl>http://doc.sccode.org/</docsUrl>
     <mailingListUrl>http://new-supercollider-mailing-lists-forums-use-these.2681727.n2.nabble.com/</mailingListUrl>
     <bugTrackerUrl>https://github.com/supercollider/supercollider/issues</bugTrackerUrl>
-    <tags>supercollider sc3-plugins admin audio</tags>
+    <tags>supercollider sc3-plugins audio</tags>
     <summary>SuperCollider sc3-plugins install for Windows.</summary>
     <description>This package contains the community collection of unit generator plugins for SuperCollider. 
     It extends the functionality of SuperCollider by additional UGens that run on scsynth, 
