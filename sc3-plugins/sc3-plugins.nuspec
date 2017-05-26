@@ -20,7 +20,7 @@
     <description>This package contains the community collection of unit generator plugins for SuperCollider. 
     It extends the functionality of SuperCollider by additional UGens that run on scsynth, 
     the SuperCollider audio synthesis server.</description>
-    <releaseNotes>https://github.com/supercollider/sc-chocolatey/blob/master/sc3plugins/changelog.md</releaseNotes>
+    <releaseNotes>https://github.com/supercollider/sc-chocolatey/blob/master/sc3-plugins/changelog.md</releaseNotes>
   <dependencies>
     <dependency id="supercollider" version="3.8.0"/>
   </dependencies>
