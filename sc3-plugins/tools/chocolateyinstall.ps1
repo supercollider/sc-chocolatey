@@ -4,19 +4,19 @@ $packageName= 'sc3plugins'
 $url        = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.8.0/sc3-plugins_Windows_SC3.8_MW-32bit_incl-SuperNova_692f92f.zip' 
 $url64      = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.8.0/sc3-plugins_Windows_SC3.8_VS-64bit_692f92f.zip' 
 
-$extensionsPath = $env:LOCALAPPDATA + '\SuperCollider\Extensions'
-$pluginsPath = $extensionsPath + '\SC3plugins'
+$scExtensionsPath = $env:LOCALAPPDATA + '\SuperCollider\Extensions'
+$scPluginsPath = $scExtensionsPath + '\SC3plugins'
 
-if(!(Test-Path -Path $pluginsPath )){
+if(!(Test-Path -Path $scPluginsPath )){
 
-  if (!(Test-Path -Path $extensionsPath)){
-    Write-Host "Creating " $extensionsPath
-    New-Item -ItemType directory -Path $extensionsPath
+  if (!(Test-Path -Path $scExtensionsPath)){
+    Write-Host "Creating " $scExtensionsPath
+    New-Item -ItemType directory -Path $scExtensionsPath
   }
 
   $packageArgs = @{
     packageName   = $packageName
-    unzipLocation = $extensionsPath
+    unzipLocation = $scExtensionsPath
     url           = $url
     url64bit      = $url64
 
