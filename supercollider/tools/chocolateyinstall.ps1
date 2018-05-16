@@ -2,8 +2,8 @@
 
 $packageName= 'supercollider'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/supercollider/supercollider/releases/download/Version-3.8.0/SuperCollider-3.8.0_Windows_32bits_MW_SuperNova_0947edd.exe' 
-$url64      = 'https://github.com/supercollider/supercollider/releases/download/Version-3.8.0/SuperCollider-3.8.0_Windows_64bit_VS_0947edd.exe' 
+$url        = 'https://github.com/supercollider/supercollider/releases/download/Version-3.9.3/SuperCollider-3.9.3-Windows-x86-VS.exe' 
+$url64      = 'https://github.com/supercollider/supercollider/releases/download/Version-3.9.3/SuperCollider-3.9.3-Windows-x64-VS.exe' 
 
 $packageArgs = @{
   packageName   = $packageName
@@ -12,11 +12,11 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
 
-  softwareName  = 'SuperCollider Version 3.8.0'
+  softwareName  = 'SuperCollider Version 3.9.3'
 
-  checksum      = '3523342DB879FC0E44413772B908804BD0E56ABAD0E7960E4FF776AE0E0C9E72'
+  checksum      = '7B421B4E5E10231DC4F8EB071D755FCA1F68CD6F445A5BCCC52880C5B705464A'
   checksumType  = 'sha256' 
-  checksum64    = '304D29BBEE313CE745BC1A2405AECA487BED4169D1DF22D52E3E89A85300569D'
+  checksum64    = 'A92CDAD270DE580C3F0F8BCE499FA642E54BABEF71AB32E64E34FD6A25F300DC'
   checksumType64= 'sha256' 
 
   validExitCodes= @(0, 3010, 1641)

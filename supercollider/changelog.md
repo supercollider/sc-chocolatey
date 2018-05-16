@@ -1,5 +1,8 @@
 # SuperCollider Package Change Log
 
+## 3.9.3
+Release for 3.9.3
+
 ## 3.8.0.2
 Specify minimum git version (2.5).
 
