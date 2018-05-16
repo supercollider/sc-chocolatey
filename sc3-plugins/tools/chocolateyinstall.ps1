@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'; 
 
 $packageName= 'sc3plugins'
-$url        = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.8.0/sc3-plugins_Windows_SC3.8_MW-32bit_incl-SuperNova_692f92f.zip' 
-$url64      = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.8.0/sc3-plugins_Windows_SC3.8_VS-64bit_692f92f.zip' 
+$url        = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.9.0/sc3-plugins-3.9.0-Windows-x86-VS.zip' 
+$url64      = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.9.0/sc3-plugins-3.9.0-Windows-x64-VS.zip' 
 
 $scExtensionsPath = $env:LOCALAPPDATA + '\SuperCollider\Extensions'
 $scPluginsPath = $scExtensionsPath + '\SC3plugins'
@@ -20,9 +20,9 @@ if(!(Test-Path -Path $scPluginsPath )){
     url           = $url
     url64bit      = $url64
 
-    checksum      = '7250ECBF05BD61DDAB3D671402D7953A3D9B7C2FCB5285ABC9E57C17B0FA49DA'
+    checksum      = 'E24455DF1B97C3318E47BADE779D8D8F1ACBBC1F1B238E2D20FBF5142548447B'
     checksumType  = 'sha256' 
-    checksum64    = '8571A3876041F25799D20ED685F0B2100EFD54CA92025206D01010B3BB3DE7C2'
+    checksum64    = '0E192087F69C7C7FAB003B21CDE2FF01EA825FD400446132FF07B6241734DD30'
     checksumType64= 'sha256' 
 
   }

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sc3plugins</id>
-    <version>3.8.0</version>
+    <version>3.9.0</version>
     <packageSourceUrl>https://github.com/supercollider/sc-chocolatey</packageSourceUrl>
     <title>SuperCollider sc3-plugins</title>
     <authors>SuperCollider Authors</authors>
@@ -22,7 +22,7 @@
     the SuperCollider audio synthesis server.</description>
     <releaseNotes>https://github.com/supercollider/sc-chocolatey/blob/master/sc3-plugins/changelog.md</releaseNotes>
   <dependencies>
-    <dependency id="supercollider" version="3.8.0"/>
+    <dependency id="supercollider" version="3.9.3"/>
   </dependencies>
   </metadata>
   <files>
