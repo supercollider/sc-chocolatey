@@ -2,7 +2,7 @@
 
 $packageName= 'sc3plugins'
 $url        = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.11.1/sc3-plugins-3.11.1-Windows-32bit-VS.zip' 
-$url64      = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.11.1/sc3-plugins-3.11.1-Windows-x64-VS.zip' 
+$url64      = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.11.1/sc3-plugins-3.11.1-Windows-64bit-VS.zip' 
 
 $scExtensionsPath = $env:LOCALAPPDATA + '\SuperCollider\Extensions'
 $scPluginsPath = $scExtensionsPath + '\SC3plugins'
