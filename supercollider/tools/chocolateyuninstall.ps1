@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName = 'supercollider'
-$softwareName = 'SuperCollider Version 3.9.3'
+$softwareName = 'SuperCollider Version 3.12.1'
 $installerType = 'EXE' 
 
 $silentArgs = '/S'
