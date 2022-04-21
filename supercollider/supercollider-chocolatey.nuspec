@@ -8,7 +8,7 @@
     <owners>Mike Hodnick</owners>
     <authors>SuperCollider Authors</authors>
     <projectUrl>https://supercollider.github.io</projectUrl>
-    <iconUrl>http://supercollider.github.io/images/sc_cube_32x32.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/supercollider/supercollider.github.io/f443aa3dc03df0d17c0742af646752b215cd8ff7/images/favicon.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/supercollider/supercollider</projectSourceUrl>
